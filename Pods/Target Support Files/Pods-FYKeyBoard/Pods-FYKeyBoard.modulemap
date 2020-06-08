@@ -1,0 +1,6 @@
+framework module Pods_FYKeyBoard {
+  umbrella header "Pods-FYKeyBoard-umbrella.h"
+
+  export *
+  module * { export * }
+}

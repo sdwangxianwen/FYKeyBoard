@@ -1,0 +1,6 @@
+framework module Pods_FYKeyBoard_FYKeyBoardUITests {
+  umbrella header "Pods-FYKeyBoard-FYKeyBoardUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

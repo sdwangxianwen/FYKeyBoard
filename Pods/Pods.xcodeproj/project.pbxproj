@@ -1,0 +1,1515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C4E7BECD5B1EDB92B7736D2C9C6A39 /* Pods-FYKeyBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7C65F4668086DFBA8D037A612429F5 /* Pods-FYKeyBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		064406C61281EDAD189913BD0FC76EAC /* Pods-FYKeyBoardTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6935E4DF69EBE8B264618D2BCEE91232 /* Pods-FYKeyBoardTests-dummy.m */; };
+		08B768DB794E28A1E2254D59201C2407 /* MLLabelLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3889D96898F63782CB35CFF0D24913 /* MLLabelLayoutManager.m */; };
+		09468AB7F3ED0D0A305AD2748A69301D /* MLLabel+Override.h in Headers */ = {isa = PBXBuildFile; fileRef = E969EB6E17EDFB8863D2E5B12548D0F0 /* MLLabel+Override.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C9A407F53A0A4303AB0D9510F0FCAAB /* HPTextViewInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = D90845740231F7C6F4AE581D0FCF5D7E /* HPTextViewInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23CF371AAD59F4A0A5E31B2D02AC181B /* MLLabel+Override.h in Headers */ = {isa = PBXBuildFile; fileRef = E969EB6E17EDFB8863D2E5B12548D0F0 /* MLLabel+Override.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B470CF18F097CAB222811881D75FE87 /* MLLinkLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9E779AB1210FCD1EE4ADA8598A4136 /* MLLinkLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DAD68943B56DA208FEE9DF8147CA0AF /* Pods-FYKeyBoardTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D3EF1CA7ABF936C2DEBC1766E00181 /* Pods-FYKeyBoardTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E0F4561C862907B5BBD87358869DC7C /* HPGrowingTextView-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ABD10E9BC0BAEEBC3C6BF5D99C4CAB /* HPGrowingTextView-framework-dummy.m */; };
+		2EE552C7B057A0FF627DD9EFFFE12EFF /* MLLabelLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3889D96898F63782CB35CFF0D24913 /* MLLabelLayoutManager.m */; };
+		35BE91B74F161D2C5D78C5DD20016801 /* HPGrowingTextView-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25FF53BDC9FB92885629A4F220C6D8C2 /* HPGrowingTextView-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38237563B5F3DA52292AED96A40600F8 /* MLLinkLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9E779AB1210FCD1EE4ADA8598A4136 /* MLLinkLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B6DEBE41E7ECE9508405E905B6DF31E /* NSString+MLLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AB43DC732A27ED4A256A8CA911B400C3 /* NSString+MLLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40579F429AF94C1264537A8E79B18FA2 /* MLExpressionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0EDDF0D1294154EAA77F399786A554 /* MLExpressionManager.m */; };
+		409A2C96CD01C1E00A29178D51C346C8 /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D86461BA7C6E2F3CDD6F5529B3BA040 /* HPGrowingTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		43F05F7657B45F27603E7FCD2F1C4991 /* NSAttributedString+MLExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A565EC0CCAEB6DCF07010AD23986D94 /* NSAttributedString+MLExpression.m */; };
+		46E00B6CE0E3A620713EA024FDEB454D /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC25EAC577F8A998222DF318E9B5D0 /* HPTextViewInternal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4F59B1F2988EA77A961F8650F3DCF267 /* NSAttributedString+MLLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B69171A4874E523DE0097B7F3BFD06 /* NSAttributedString+MLLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5818219BD8D07FDC21305E95D4B145FA /* HPTextViewInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = D90845740231F7C6F4AE581D0FCF5D7E /* HPTextViewInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		588D29A8C7E5FD34E7395D7C7A4B591F /* MLLabel-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A96B595D2C3416E7B52B19CD29F388 /* MLLabel-framework-dummy.m */; };
+		5A143768C9CA8166DD10BAE328C30C89 /* HPGrowingTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D5FA9078ED526C5730B303E409242B0 /* HPGrowingTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F5FDB3CE9EFDBA3C198B9B74244346C /* Pods-FYKeyBoard-FYKeyBoardUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F153927EFFE11D8503F51F1AC4DA4DE1 /* Pods-FYKeyBoard-FYKeyBoardUITests-dummy.m */; };
+		63E739320B745DF92F7C2BBDCAC91344 /* NSAttributedString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B3F17F1873FADABAB84A0E18826332 /* NSAttributedString+MLLabel.m */; };
+		6860DE876645805E752E3BD03B8C9FFC /* NSString+MLExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBE16BB794265536F9A7C51AA5EDA82 /* NSString+MLExpression.m */; };
+		6CC9CCF5E915E7F4073AD1AEDB5216B6 /* MLExpressionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3690BFF1EE92C86091C4ABC7914D8DD8 /* MLExpressionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F4A4699462E7FACF0E88E5701D82E02 /* MLLabelLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4374AB594E0E5984356C02828D08D1CF /* MLLabelLayoutManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7204E234B8CE64FD23A78EFE0278B0C0 /* NSMutableAttributedString+MLLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7362479F75E0E33004BE3A21A33ED9B0 /* NSMutableAttributedString+MLLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72231053ED91AE40FBDAD4EC2C982A72 /* NSString+MLExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBE16BB794265536F9A7C51AA5EDA82 /* NSString+MLExpression.m */; };
+		78812DDC754C269A6FB7F9B14559E3FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7B4093C0B5BC1BD796D3253A1BF409FD /* MLLinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 121CBE8D2D57E8A0A1A73A988F8CA388 /* MLLinkLabel.m */; };
+		82313B3D45B25A14CAACC26FB9B74E2D /* HPGrowingTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D5FA9078ED526C5730B303E409242B0 /* HPGrowingTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85654A651BE233B9A431817C389DC445 /* MLLabel-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3A4ECE587B19CB58E71F81454B0082 /* MLLabel-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AFEAE3338EAD9F27BF8F0F2B9C7F0E8 /* NSAttributedString+MLLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B69171A4874E523DE0097B7F3BFD06 /* NSAttributedString+MLLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D68D989AB90A720F53DDC6FCD75D41E /* MLLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = BF04B58DBBF4852DED364D62C7559DAE /* MLLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		958387D2058FFDD6E8ACAF25F7A0CA23 /* NSString+MLExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E1BE4068C8984D95006DB4393B4452E /* NSString+MLExpression.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9CC3A0DD4E8E2B9BD6895EB5DC730786 /* MLLinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 121CBE8D2D57E8A0A1A73A988F8CA388 /* MLLinkLabel.m */; };
+		9F1FEB95F2BE6489EA8A7C6F2DABD419 /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC25EAC577F8A998222DF318E9B5D0 /* HPTextViewInternal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A2FF6CF165629DFEC31B2C7BEAC4DE96 /* NSString+MLLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AB43DC732A27ED4A256A8CA911B400C3 /* NSString+MLLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A6BB3E7F3984CA9CC99C31913ACAD937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B0D426CBD13132C0A064E64A878D7126 /* MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA11F4844B0028D5891640420815FB32 /* MLLabel.m */; };
+		B68FD5884C64C80E01AA5A5B5AB083A2 /* NSString+MLExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E1BE4068C8984D95006DB4393B4452E /* NSString+MLExpression.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFAF48866D11B4C0C9C4D17C9D06BA6A /* MLLabel-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB18695E47F321D643814E256D8D6639 /* MLLabel-library-dummy.m */; };
+		C305ECEB6A3B526056FC45DC3F6CD43A /* NSAttributedString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B3F17F1873FADABAB84A0E18826332 /* NSAttributedString+MLLabel.m */; };
+		C3607B2D8C7D36868CB67768F7E357D2 /* MLTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = A29B3767FF3BA4E54464E32E35D53E77 /* MLTextAttachment.m */; };
+		C49CB92B741F13B184B26CA090989BD2 /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D86461BA7C6E2F3CDD6F5529B3BA040 /* HPGrowingTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C4D1E7CC5C370593C8CF161684E61EB6 /* NSMutableAttributedString+MLLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7362479F75E0E33004BE3A21A33ED9B0 /* NSMutableAttributedString+MLLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5AFA1E81BD53CA0278FCE84EE055898 /* MLLabelLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4374AB594E0E5984356C02828D08D1CF /* MLLabelLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB84FB551BCDA0B4C83D31A08E9A7A5 /* NSString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C2BCDF1BFD62BC50DDF80E47276093 /* NSString+MLLabel.m */; };
+		D3A512D2A540386A1B26CEC86A9D6D64 /* MLTextAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE2A3C4FF0BF80FC75F25D1DF6C3EB2 /* MLTextAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3CB483753BE4FDA4531D44991879326 /* MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA11F4844B0028D5891640420815FB32 /* MLLabel.m */; };
+		D70891E0198964038971F5A70E6947A3 /* NSAttributedString+MLExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = D95773F5002373888000C98E434AA456 /* NSAttributedString+MLExpression.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D89F919112B0E4B93A768ED880E091BC /* NSAttributedString+MLExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = D95773F5002373888000C98E434AA456 /* NSAttributedString+MLExpression.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA1631D0A8C4C463B7A02DAEE6196ED9 /* NSMutableAttributedString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1395128100B94CCC62C308C7089971 /* NSMutableAttributedString+MLLabel.m */; };
+		DC425B63BB570C3F21E65070CD0BA5B5 /* MLExpressionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3690BFF1EE92C86091C4ABC7914D8DD8 /* MLExpressionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC62B0123B445903FBD4F7E11610FCE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E093D0F3070E0B5373BE082052A1B456 /* MLTextAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE2A3C4FF0BF80FC75F25D1DF6C3EB2 /* MLTextAttachment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E768DF8D9C288002CE6C564D7CF03267 /* NSString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C2BCDF1BFD62BC50DDF80E47276093 /* NSString+MLLabel.m */; };
+		E989C9F162DC9A5CF70932F31C674A90 /* NSAttributedString+MLExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A565EC0CCAEB6DCF07010AD23986D94 /* NSAttributedString+MLExpression.m */; };
+		EB3CCDC821A294E769CF7B1BEC515605 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F5137015407CAAFDC408D260F9B3D0A5 /* MLTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = A29B3767FF3BA4E54464E32E35D53E77 /* MLTextAttachment.m */; };
+		F5265B956897C4FBE403051773286CE4 /* MLExpressionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0EDDF0D1294154EAA77F399786A554 /* MLExpressionManager.m */; };
+		F662CF8F5FBC86448285D64ED17CE144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F7029690302AEB6195843BA001768192 /* Pods-FYKeyBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F4D4162081E3A5EE57CA0D05008AC3 /* Pods-FYKeyBoard-dummy.m */; };
+		F825AC74AB9CEEB7E0CE8E9E9B2E809A /* Pods-FYKeyBoard-FYKeyBoardUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4603802DE4F22852719E7C3B5AA00064 /* Pods-FYKeyBoard-FYKeyBoardUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F88469A8F4706F6980504AFF901EF5CE /* MLLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = BF04B58DBBF4852DED364D62C7559DAE /* MLLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9E9D26AAF6525A471EA975CFED1C0A6 /* HPGrowingTextView-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3A8B83F040FE58EA691DD1109B3BC7 /* HPGrowingTextView-library-dummy.m */; };
+		FF1507177029524695E752B61648A170 /* NSMutableAttributedString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1395128100B94CCC62C308C7089971 /* NSMutableAttributedString+MLLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E8F5F3E2FA3F7A4D0D17F8B114323A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D89A717BE7F9D4D2C904D06373B27747;
+			remoteInfo = "HPGrowingTextView-framework";
+		};
+		6EDF6AAE0A3386D488F6323AEB3A80DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D89A717BE7F9D4D2C904D06373B27747;
+			remoteInfo = "HPGrowingTextView-framework";
+		};
+		96154D81A8F6C43DDA26816B6B75B520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6386FFAD4EDE28D9F87285A9F6237D9F;
+			remoteInfo = "MLLabel-framework";
+		};
+		D7C2B40FE91EB8BD536077CA63A3F586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6386FFAD4EDE28D9F87285A9F6237D9F;
+			remoteInfo = "MLLabel-framework";
+		};
+		EB3E345E2B3A8CBE41BC3D2C382F85BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32DD9D335FF01F64E169E93CEFDF2CA;
+			remoteInfo = "Pods-FYKeyBoard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CACD148D5005687B6E8C3A02DC2B0E2 /* MLLabel-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MLLabel-framework-Info.plist"; sourceTree = "<group>"; };
+		0D897EB89569285733816793B7980019 /* HPGrowingTextView-framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HPGrowingTextView-framework.debug.xcconfig"; sourceTree = "<group>"; };
+		11A1B3C8456E78981A4D3563ED9EF829 /* Pods-FYKeyBoard-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYKeyBoard-frameworks.sh"; sourceTree = "<group>"; };
+		121CBE8D2D57E8A0A1A73A988F8CA388 /* MLLinkLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLLinkLabel.m; path = Classes/MLLinkLabel.m; sourceTree = "<group>"; };
+		155477C781F976F7C346B3C108A09B45 /* HPGrowingTextView-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HPGrowingTextView-library-prefix.pch"; path = "../HPGrowingTextView-library/HPGrowingTextView-library-prefix.pch"; sourceTree = "<group>"; };
+		16B69171A4874E523DE0097B7F3BFD06 /* NSAttributedString+MLLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+MLLabel.h"; path = "Classes/Category/NSAttributedString+MLLabel.h"; sourceTree = "<group>"; };
+		1EFC25EAC577F8A998222DF318E9B5D0 /* HPTextViewInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HPTextViewInternal.m; path = class/HPTextViewInternal.m; sourceTree = "<group>"; };
+		25FF53BDC9FB92885629A4F220C6D8C2 /* HPGrowingTextView-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPGrowingTextView-framework-umbrella.h"; sourceTree = "<group>"; };
+		27D05248E9B83E6D831F8BA0078C636B /* MLLabel-framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MLLabel-framework.debug.xcconfig"; sourceTree = "<group>"; };
+		2A565EC0CCAEB6DCF07010AD23986D94 /* NSAttributedString+MLExpression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+MLExpression.m"; path = "Classes/Expression/NSAttributedString+MLExpression.m"; sourceTree = "<group>"; };
+		2AF631A558AE71D7357FB8DE454B129C /* MLLabel-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "MLLabel-framework.modulemap"; sourceTree = "<group>"; };
+		2D5FA9078ED526C5730B303E409242B0 /* HPGrowingTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HPGrowingTextView.h; path = class/HPGrowingTextView.h; sourceTree = "<group>"; };
+		2F1395128100B94CCC62C308C7089971 /* NSMutableAttributedString+MLLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+MLLabel.m"; path = "Classes/Category/NSMutableAttributedString+MLLabel.m"; sourceTree = "<group>"; };
+		304606FB1DC79E7F8E2E2318AAD48F3D /* MLLabel-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MLLabel-library-prefix.pch"; path = "../MLLabel-library/MLLabel-library-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35497727A470019B0EFFC8C39546ECD8 /* Pods-FYKeyBoardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYKeyBoardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3690BFF1EE92C86091C4ABC7914D8DD8 /* MLExpressionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLExpressionManager.h; path = Classes/Expression/MLExpressionManager.h; sourceTree = "<group>"; };
+		3D86461BA7C6E2F3CDD6F5529B3BA040 /* HPGrowingTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HPGrowingTextView.m; path = class/HPGrowingTextView.m; sourceTree = "<group>"; };
+		4374AB594E0E5984356C02828D08D1CF /* MLLabelLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLLabelLayoutManager.h; path = Classes/Helper/MLLabelLayoutManager.h; sourceTree = "<group>"; };
+		43B3F17F1873FADABAB84A0E18826332 /* NSAttributedString+MLLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+MLLabel.m"; path = "Classes/Category/NSAttributedString+MLLabel.m"; sourceTree = "<group>"; };
+		4603802DE4F22852719E7C3B5AA00064 /* Pods-FYKeyBoard-FYKeyBoardUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYKeyBoard-FYKeyBoardUITests-umbrella.h"; sourceTree = "<group>"; };
+		46431786525A8FE02254A0346C5A6603 /* HPGrowingTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HPGrowingTextView.framework; path = "HPGrowingTextView-framework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E9EE4D27C870AF357992B81B1703AE /* Pods-FYKeyBoardTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYKeyBoardTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4715D36AACAA6C5F5C3B6CE3DC0FE3FC /* Pods_FYKeyBoardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FYKeyBoardTests.framework; path = "Pods-FYKeyBoardTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		475085748BDB68AD4182DFF5C0B5F5A1 /* libMLLabel-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libMLLabel-library.a"; path = "libMLLabel-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0EDDF0D1294154EAA77F399786A554 /* MLExpressionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLExpressionManager.m; path = Classes/Expression/MLExpressionManager.m; sourceTree = "<group>"; };
+		4E1BE4068C8984D95006DB4393B4452E /* NSString+MLExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MLExpression.h"; path = "Classes/Expression/NSString+MLExpression.h"; sourceTree = "<group>"; };
+		50D09DBD3BA20E2A5CEC4AE4492AE313 /* Pods-FYKeyBoard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYKeyBoard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53ECE9EC74A9B759E2F5B8E7AD3302E8 /* Pods-FYKeyBoard-FYKeyBoardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYKeyBoard-FYKeyBoardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5817465EAA4C3FFC8BA79C16E11C4ED2 /* libHPGrowingTextView-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libHPGrowingTextView-library.a"; path = "libHPGrowingTextView-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A69622B1A1FB3DD2FC72BEFD3B7A57E /* MLLabel-library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "MLLabel-library.debug.xcconfig"; path = "../MLLabel-library/MLLabel-library.debug.xcconfig"; sourceTree = "<group>"; };
+		5B7C65F4668086DFBA8D037A612429F5 /* Pods-FYKeyBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYKeyBoard-umbrella.h"; sourceTree = "<group>"; };
+		5C26A7AFE92AC79C41F8BA2F553AF5B7 /* Pods-FYKeyBoardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYKeyBoardTests.release.xcconfig"; sourceTree = "<group>"; };
+		5FA4EC98E51E48FC9FF828A4F1205F17 /* Pods-FYKeyBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYKeyBoard.debug.xcconfig"; sourceTree = "<group>"; };
+		6935E4DF69EBE8B264618D2BCEE91232 /* Pods-FYKeyBoardTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYKeyBoardTests-dummy.m"; sourceTree = "<group>"; };
+		6CBE16BB794265536F9A7C51AA5EDA82 /* NSString+MLExpression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MLExpression.m"; path = "Classes/Expression/NSString+MLExpression.m"; sourceTree = "<group>"; };
+		6D2D20206080CB80FEB09A65584C8D96 /* HPGrowingTextView-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPGrowingTextView-framework-prefix.pch"; sourceTree = "<group>"; };
+		6DB4CA9F6970515BDA63CDA96F416B69 /* MLLabel-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLLabel-framework-prefix.pch"; sourceTree = "<group>"; };
+		71819BBF365C7634D6BE6CA97DB1CC55 /* Pods_FYKeyBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FYKeyBoard.framework; path = "Pods-FYKeyBoard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7362479F75E0E33004BE3A21A33ED9B0 /* NSMutableAttributedString+MLLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+MLLabel.h"; path = "Classes/Category/NSMutableAttributedString+MLLabel.h"; sourceTree = "<group>"; };
+		7F1BF6E601451DD1F55643F10E2DD0FA /* Pods-FYKeyBoard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYKeyBoard-acknowledgements.plist"; sourceTree = "<group>"; };
+		800367F146932B8C690825D97D4371F7 /* Pods-FYKeyBoard-FYKeyBoardUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYKeyBoard-FYKeyBoardUITests-frameworks.sh"; sourceTree = "<group>"; };
+		81C66633464E4356969B7028A12C4416 /* HPGrowingTextView-framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HPGrowingTextView-framework.release.xcconfig"; sourceTree = "<group>"; };
+		830E61AE1C8468FE06ADCF41B4651BC5 /* HPGrowingTextView-library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "HPGrowingTextView-library.debug.xcconfig"; path = "../HPGrowingTextView-library/HPGrowingTextView-library.debug.xcconfig"; sourceTree = "<group>"; };
+		9133F360610C003A3722A5A8122E4FA7 /* Pods-FYKeyBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYKeyBoard.release.xcconfig"; sourceTree = "<group>"; };
+		97ABD10E9BC0BAEEBC3C6BF5D99C4CAB /* HPGrowingTextView-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HPGrowingTextView-framework-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A02394302A95D9660A19C3C9C3055928 /* Pods-FYKeyBoardTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYKeyBoardTests-Info.plist"; sourceTree = "<group>"; };
+		A29B3767FF3BA4E54464E32E35D53E77 /* MLTextAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLTextAttachment.m; path = Classes/Expression/MLTextAttachment.m; sourceTree = "<group>"; };
+		A4D3EF1CA7ABF936C2DEBC1766E00181 /* Pods-FYKeyBoardTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYKeyBoardTests-umbrella.h"; sourceTree = "<group>"; };
+		AB43DC732A27ED4A256A8CA911B400C3 /* NSString+MLLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MLLabel.h"; path = "Classes/Category/NSString+MLLabel.h"; sourceTree = "<group>"; };
+		AC9E779AB1210FCD1EE4ADA8598A4136 /* MLLinkLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLLinkLabel.h; path = Classes/MLLinkLabel.h; sourceTree = "<group>"; };
+		AEC9BF2FFB775BB5FEF3EE3C8CE5BE8C /* Pods-FYKeyBoard-FYKeyBoardUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYKeyBoard-FYKeyBoardUITests-Info.plist"; sourceTree = "<group>"; };
+		B337BEF3B98CC76836854853BCCB50BA /* Pods-FYKeyBoardTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYKeyBoardTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B5E06AC2B9588CC62665A1FA5F38E0C1 /* MLLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MLLabel.framework; path = "MLLabel-framework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82FA5714459BC89B26E4CD2C35EEE9E /* Pods-FYKeyBoard-FYKeyBoardUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYKeyBoard-FYKeyBoardUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB18695E47F321D643814E256D8D6639 /* MLLabel-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MLLabel-library-dummy.m"; path = "../MLLabel-library/MLLabel-library-dummy.m"; sourceTree = "<group>"; };
+		BB3889D96898F63782CB35CFF0D24913 /* MLLabelLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLLabelLayoutManager.m; path = Classes/Helper/MLLabelLayoutManager.m; sourceTree = "<group>"; };
+		BE4397A14B51941C6AE45E045A4CC26D /* HPGrowingTextView-library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "HPGrowingTextView-library.release.xcconfig"; path = "../HPGrowingTextView-library/HPGrowingTextView-library.release.xcconfig"; sourceTree = "<group>"; };
+		BE758D87C63580B2CB529C3221623252 /* Pods_FYKeyBoard_FYKeyBoardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FYKeyBoard_FYKeyBoardUITests.framework; path = "Pods-FYKeyBoard-FYKeyBoardUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF04B58DBBF4852DED364D62C7559DAE /* MLLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLLabel.h; path = Classes/MLLabel.h; sourceTree = "<group>"; };
+		C4670F290D8441197CC7A7F56B7E3724 /* Pods-FYKeyBoardTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYKeyBoardTests.modulemap"; sourceTree = "<group>"; };
+		CAABEBC032A0899DAD6F1C6209FA44DD /* Pods-FYKeyBoard-FYKeyBoardUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYKeyBoard-FYKeyBoardUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE9BAF19EFEA341CCC0037C8A354A9A5 /* Pods-FYKeyBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYKeyBoard-Info.plist"; sourceTree = "<group>"; };
+		D21138F42751F68CAF3EEFB00D710739 /* Pods-FYKeyBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYKeyBoard.modulemap"; sourceTree = "<group>"; };
+		D2C2BCDF1BFD62BC50DDF80E47276093 /* NSString+MLLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MLLabel.m"; path = "Classes/Category/NSString+MLLabel.m"; sourceTree = "<group>"; };
+		D4A96B595D2C3416E7B52B19CD29F388 /* MLLabel-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MLLabel-framework-dummy.m"; sourceTree = "<group>"; };
+		D90845740231F7C6F4AE581D0FCF5D7E /* HPTextViewInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HPTextViewInternal.h; path = class/HPTextViewInternal.h; sourceTree = "<group>"; };
+		D95773F5002373888000C98E434AA456 /* NSAttributedString+MLExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+MLExpression.h"; path = "Classes/Expression/NSAttributedString+MLExpression.h"; sourceTree = "<group>"; };
+		DA3568100B1FC361C7314D21BB7CCEA6 /* HPGrowingTextView-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "HPGrowingTextView-framework.modulemap"; sourceTree = "<group>"; };
+		DB96903DAFA91E3E1E9B5BD0B064153E /* HPGrowingTextView-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HPGrowingTextView-framework-Info.plist"; sourceTree = "<group>"; };
+		E969EB6E17EDFB8863D2E5B12548D0F0 /* MLLabel+Override.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MLLabel+Override.h"; path = "Classes/Helper/MLLabel+Override.h"; sourceTree = "<group>"; };
+		EA11F4844B0028D5891640420815FB32 /* MLLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLLabel.m; path = Classes/MLLabel.m; sourceTree = "<group>"; };
+		EC3A8B83F040FE58EA691DD1109B3BC7 /* HPGrowingTextView-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HPGrowingTextView-library-dummy.m"; path = "../HPGrowingTextView-library/HPGrowingTextView-library-dummy.m"; sourceTree = "<group>"; };
+		EFE2A3C4FF0BF80FC75F25D1DF6C3EB2 /* MLTextAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLTextAttachment.h; path = Classes/Expression/MLTextAttachment.h; sourceTree = "<group>"; };
+		F0F4D4162081E3A5EE57CA0D05008AC3 /* Pods-FYKeyBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYKeyBoard-dummy.m"; sourceTree = "<group>"; };
+		F153927EFFE11D8503F51F1AC4DA4DE1 /* Pods-FYKeyBoard-FYKeyBoardUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYKeyBoard-FYKeyBoardUITests-dummy.m"; sourceTree = "<group>"; };
+		F74F1BA430E0AE133B492EC4BB686154 /* MLLabel-framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MLLabel-framework.release.xcconfig"; sourceTree = "<group>"; };
+		F877E0A224B2259AA79E1A8AEE03DBB8 /* MLLabel-library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "MLLabel-library.release.xcconfig"; path = "../MLLabel-library/MLLabel-library.release.xcconfig"; sourceTree = "<group>"; };
+		F9E6706E3ED3EF6CA2E2F64B36E383A1 /* Pods-FYKeyBoard-FYKeyBoardUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYKeyBoard-FYKeyBoardUITests.modulemap"; sourceTree = "<group>"; };
+		FD8105DD66EAA7A3E3D747FDD7EFC5B6 /* Pods-FYKeyBoard-FYKeyBoardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYKeyBoard-FYKeyBoardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE3A4ECE587B19CB58E71F81454B0082 /* MLLabel-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLLabel-framework-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		008F6AD875E8B90DA6325127DA1F9F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BB3E7F3984CA9CC99C31913ACAD937 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BFB66D14D72F0E7357FB61C720A1E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944188A7D6230C3902CD388AA4E54244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FBA5A565E73AF7D192BB5CE372ADEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3CCDC821A294E769CF7B1BEC515605 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A709785C8AA6123A29CFD828DD1F38B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC62B0123B445903FBD4F7E11610FCE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7F35FFFC813D6B153DF85677A2277B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F662CF8F5FBC86448285D64ED17CE144 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C2F48E181B9783243E71300181B252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78812DDC754C269A6FB7F9B14559E3FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05FF18AE09501012C4C41929B192A7F1 /* MLLabel */ = {
+			isa = PBXGroup;
+			children = (
+				3690BFF1EE92C86091C4ABC7914D8DD8 /* MLExpressionManager.h */,
+				4E0EDDF0D1294154EAA77F399786A554 /* MLExpressionManager.m */,
+				BF04B58DBBF4852DED364D62C7559DAE /* MLLabel.h */,
+				EA11F4844B0028D5891640420815FB32 /* MLLabel.m */,
+				E969EB6E17EDFB8863D2E5B12548D0F0 /* MLLabel+Override.h */,
+				4374AB594E0E5984356C02828D08D1CF /* MLLabelLayoutManager.h */,
+				BB3889D96898F63782CB35CFF0D24913 /* MLLabelLayoutManager.m */,
+				AC9E779AB1210FCD1EE4ADA8598A4136 /* MLLinkLabel.h */,
+				121CBE8D2D57E8A0A1A73A988F8CA388 /* MLLinkLabel.m */,
+				EFE2A3C4FF0BF80FC75F25D1DF6C3EB2 /* MLTextAttachment.h */,
+				A29B3767FF3BA4E54464E32E35D53E77 /* MLTextAttachment.m */,
+				D95773F5002373888000C98E434AA456 /* NSAttributedString+MLExpression.h */,
+				2A565EC0CCAEB6DCF07010AD23986D94 /* NSAttributedString+MLExpression.m */,
+				16B69171A4874E523DE0097B7F3BFD06 /* NSAttributedString+MLLabel.h */,
+				43B3F17F1873FADABAB84A0E18826332 /* NSAttributedString+MLLabel.m */,
+				7362479F75E0E33004BE3A21A33ED9B0 /* NSMutableAttributedString+MLLabel.h */,
+				2F1395128100B94CCC62C308C7089971 /* NSMutableAttributedString+MLLabel.m */,
+				4E1BE4068C8984D95006DB4393B4452E /* NSString+MLExpression.h */,
+				6CBE16BB794265536F9A7C51AA5EDA82 /* NSString+MLExpression.m */,
+				AB43DC732A27ED4A256A8CA911B400C3 /* NSString+MLLabel.h */,
+				D2C2BCDF1BFD62BC50DDF80E47276093 /* NSString+MLLabel.m */,
+				2FBA3F9AC4967D6B033418E43F7389E4 /* Support Files */,
+			);
+			name = MLLabel;
+			path = MLLabel;
+			sourceTree = "<group>";
+		};
+		15738F91E0164773492A2FBE0E54456C /* Pods-FYKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D21138F42751F68CAF3EEFB00D710739 /* Pods-FYKeyBoard.modulemap */,
+				50D09DBD3BA20E2A5CEC4AE4492AE313 /* Pods-FYKeyBoard-acknowledgements.markdown */,
+				7F1BF6E601451DD1F55643F10E2DD0FA /* Pods-FYKeyBoard-acknowledgements.plist */,
+				F0F4D4162081E3A5EE57CA0D05008AC3 /* Pods-FYKeyBoard-dummy.m */,
+				11A1B3C8456E78981A4D3563ED9EF829 /* Pods-FYKeyBoard-frameworks.sh */,
+				CE9BAF19EFEA341CCC0037C8A354A9A5 /* Pods-FYKeyBoard-Info.plist */,
+				5B7C65F4668086DFBA8D037A612429F5 /* Pods-FYKeyBoard-umbrella.h */,
+				5FA4EC98E51E48FC9FF828A4F1205F17 /* Pods-FYKeyBoard.debug.xcconfig */,
+				9133F360610C003A3722A5A8122E4FA7 /* Pods-FYKeyBoard.release.xcconfig */,
+			);
+			name = "Pods-FYKeyBoard";
+			path = "Target Support Files/Pods-FYKeyBoard";
+			sourceTree = "<group>";
+		};
+		1EF078FC701A54DB86C1BCC51B859E04 /* Pods-FYKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4670F290D8441197CC7A7F56B7E3724 /* Pods-FYKeyBoardTests.modulemap */,
+				B337BEF3B98CC76836854853BCCB50BA /* Pods-FYKeyBoardTests-acknowledgements.markdown */,
+				46E9EE4D27C870AF357992B81B1703AE /* Pods-FYKeyBoardTests-acknowledgements.plist */,
+				6935E4DF69EBE8B264618D2BCEE91232 /* Pods-FYKeyBoardTests-dummy.m */,
+				A02394302A95D9660A19C3C9C3055928 /* Pods-FYKeyBoardTests-Info.plist */,
+				A4D3EF1CA7ABF936C2DEBC1766E00181 /* Pods-FYKeyBoardTests-umbrella.h */,
+				35497727A470019B0EFFC8C39546ECD8 /* Pods-FYKeyBoardTests.debug.xcconfig */,
+				5C26A7AFE92AC79C41F8BA2F553AF5B7 /* Pods-FYKeyBoardTests.release.xcconfig */,
+			);
+			name = "Pods-FYKeyBoardTests";
+			path = "Target Support Files/Pods-FYKeyBoardTests";
+			sourceTree = "<group>";
+		};
+		2FBA3F9AC4967D6B033418E43F7389E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AF631A558AE71D7357FB8DE454B129C /* MLLabel-framework.modulemap */,
+				D4A96B595D2C3416E7B52B19CD29F388 /* MLLabel-framework-dummy.m */,
+				0CACD148D5005687B6E8C3A02DC2B0E2 /* MLLabel-framework-Info.plist */,
+				6DB4CA9F6970515BDA63CDA96F416B69 /* MLLabel-framework-prefix.pch */,
+				FE3A4ECE587B19CB58E71F81454B0082 /* MLLabel-framework-umbrella.h */,
+				27D05248E9B83E6D831F8BA0078C636B /* MLLabel-framework.debug.xcconfig */,
+				F74F1BA430E0AE133B492EC4BB686154 /* MLLabel-framework.release.xcconfig */,
+				BB18695E47F321D643814E256D8D6639 /* MLLabel-library-dummy.m */,
+				304606FB1DC79E7F8E2E2318AAD48F3D /* MLLabel-library-prefix.pch */,
+				5A69622B1A1FB3DD2FC72BEFD3B7A57E /* MLLabel-library.debug.xcconfig */,
+				F877E0A224B2259AA79E1A8AEE03DBB8 /* MLLabel-library.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MLLabel-framework";
+			sourceTree = "<group>";
+		};
+		59DB3E575413C681B6CEA85AB37AD744 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7462E9B36DB1395C6DA13EDB09885A33 /* HPGrowingTextView */,
+				05FF18AE09501012C4C41929B192A7F1 /* MLLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		67F59CD75506C8B99EF4CBF638545603 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA3568100B1FC361C7314D21BB7CCEA6 /* HPGrowingTextView-framework.modulemap */,
+				97ABD10E9BC0BAEEBC3C6BF5D99C4CAB /* HPGrowingTextView-framework-dummy.m */,
+				DB96903DAFA91E3E1E9B5BD0B064153E /* HPGrowingTextView-framework-Info.plist */,
+				6D2D20206080CB80FEB09A65584C8D96 /* HPGrowingTextView-framework-prefix.pch */,
+				25FF53BDC9FB92885629A4F220C6D8C2 /* HPGrowingTextView-framework-umbrella.h */,
+				0D897EB89569285733816793B7980019 /* HPGrowingTextView-framework.debug.xcconfig */,
+				81C66633464E4356969B7028A12C4416 /* HPGrowingTextView-framework.release.xcconfig */,
+				EC3A8B83F040FE58EA691DD1109B3BC7 /* HPGrowingTextView-library-dummy.m */,
+				155477C781F976F7C346B3C108A09B45 /* HPGrowingTextView-library-prefix.pch */,
+				830E61AE1C8468FE06ADCF41B4651BC5 /* HPGrowingTextView-library.debug.xcconfig */,
+				BE4397A14B51941C6AE45E045A4CC26D /* HPGrowingTextView-library.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HPGrowingTextView-framework";
+			sourceTree = "<group>";
+		};
+		7462E9B36DB1395C6DA13EDB09885A33 /* HPGrowingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				2D5FA9078ED526C5730B303E409242B0 /* HPGrowingTextView.h */,
+				3D86461BA7C6E2F3CDD6F5529B3BA040 /* HPGrowingTextView.m */,
+				D90845740231F7C6F4AE581D0FCF5D7E /* HPTextViewInternal.h */,
+				1EFC25EAC577F8A998222DF318E9B5D0 /* HPTextViewInternal.m */,
+				67F59CD75506C8B99EF4CBF638545603 /* Support Files */,
+			);
+			name = HPGrowingTextView;
+			path = HPGrowingTextView;
+			sourceTree = "<group>";
+		};
+		848A58677A52E1EA4F9E05114BD940B0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15738F91E0164773492A2FBE0E54456C /* Pods-FYKeyBoard */,
+				C84B59A5FB322E51049BD241ACC03983 /* Pods-FYKeyBoard-FYKeyBoardUITests */,
+				1EF078FC701A54DB86C1BCC51B859E04 /* Pods-FYKeyBoardTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		86BFFF5213858C1F6C94751F979DAD56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46431786525A8FE02254A0346C5A6603 /* HPGrowingTextView.framework */,
+				5817465EAA4C3FFC8BA79C16E11C4ED2 /* libHPGrowingTextView-library.a */,
+				475085748BDB68AD4182DFF5C0B5F5A1 /* libMLLabel-library.a */,
+				B5E06AC2B9588CC62665A1FA5F38E0C1 /* MLLabel.framework */,
+				71819BBF365C7634D6BE6CA97DB1CC55 /* Pods_FYKeyBoard.framework */,
+				BE758D87C63580B2CB529C3221623252 /* Pods_FYKeyBoard_FYKeyBoardUITests.framework */,
+				4715D36AACAA6C5F5C3B6CE3DC0FE3FC /* Pods_FYKeyBoardTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C84B59A5FB322E51049BD241ACC03983 /* Pods-FYKeyBoard-FYKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9E6706E3ED3EF6CA2E2F64B36E383A1 /* Pods-FYKeyBoard-FYKeyBoardUITests.modulemap */,
+				CAABEBC032A0899DAD6F1C6209FA44DD /* Pods-FYKeyBoard-FYKeyBoardUITests-acknowledgements.markdown */,
+				B82FA5714459BC89B26E4CD2C35EEE9E /* Pods-FYKeyBoard-FYKeyBoardUITests-acknowledgements.plist */,
+				F153927EFFE11D8503F51F1AC4DA4DE1 /* Pods-FYKeyBoard-FYKeyBoardUITests-dummy.m */,
+				800367F146932B8C690825D97D4371F7 /* Pods-FYKeyBoard-FYKeyBoardUITests-frameworks.sh */,
+				AEC9BF2FFB775BB5FEF3EE3C8CE5BE8C /* Pods-FYKeyBoard-FYKeyBoardUITests-Info.plist */,
+				4603802DE4F22852719E7C3B5AA00064 /* Pods-FYKeyBoard-FYKeyBoardUITests-umbrella.h */,
+				FD8105DD66EAA7A3E3D747FDD7EFC5B6 /* Pods-FYKeyBoard-FYKeyBoardUITests.debug.xcconfig */,
+				53ECE9EC74A9B759E2F5B8E7AD3302E8 /* Pods-FYKeyBoard-FYKeyBoardUITests.release.xcconfig */,
+			);
+			name = "Pods-FYKeyBoard-FYKeyBoardUITests";
+			path = "Target Support Files/Pods-FYKeyBoard-FYKeyBoardUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				59DB3E575413C681B6CEA85AB37AD744 /* Pods */,
+				86BFFF5213858C1F6C94751F979DAD56 /* Products */,
+				848A58677A52E1EA4F9E05114BD940B0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16C43995C6301318A9E775BD148B7691 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F825AC74AB9CEEB7E0CE8E9E9B2E809A /* Pods-FYKeyBoard-FYKeyBoardUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE707A95C40FF81BFCC0BE125827D1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC425B63BB570C3F21E65070CD0BA5B5 /* MLExpressionManager.h in Headers */,
+				09468AB7F3ED0D0A305AD2748A69301D /* MLLabel+Override.h in Headers */,
+				8D68D989AB90A720F53DDC6FCD75D41E /* MLLabel.h in Headers */,
+				6F4A4699462E7FACF0E88E5701D82E02 /* MLLabelLayoutManager.h in Headers */,
+				2B470CF18F097CAB222811881D75FE87 /* MLLinkLabel.h in Headers */,
+				E093D0F3070E0B5373BE082052A1B456 /* MLTextAttachment.h in Headers */,
+				D89F919112B0E4B93A768ED880E091BC /* NSAttributedString+MLExpression.h in Headers */,
+				4F59B1F2988EA77A961F8650F3DCF267 /* NSAttributedString+MLLabel.h in Headers */,
+				7204E234B8CE64FD23A78EFE0278B0C0 /* NSMutableAttributedString+MLLabel.h in Headers */,
+				958387D2058FFDD6E8ACAF25F7A0CA23 /* NSString+MLExpression.h in Headers */,
+				A2FF6CF165629DFEC31B2C7BEAC4DE96 /* NSString+MLLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42960B199056E4973568F4F50F1403AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C4E7BECD5B1EDB92B7736D2C9C6A39 /* Pods-FYKeyBoard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1B2689BDCF10902604CF5DE53E5A7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35BE91B74F161D2C5D78C5DD20016801 /* HPGrowingTextView-framework-umbrella.h in Headers */,
+				82313B3D45B25A14CAACC26FB9B74E2D /* HPGrowingTextView.h in Headers */,
+				5818219BD8D07FDC21305E95D4B145FA /* HPTextViewInternal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61E24C771C672FAE3DDC1F42D1CEC8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC9CCF5E915E7F4073AD1AEDB5216B6 /* MLExpressionManager.h in Headers */,
+				23CF371AAD59F4A0A5E31B2D02AC181B /* MLLabel+Override.h in Headers */,
+				85654A651BE233B9A431817C389DC445 /* MLLabel-framework-umbrella.h in Headers */,
+				F88469A8F4706F6980504AFF901EF5CE /* MLLabel.h in Headers */,
+				C5AFA1E81BD53CA0278FCE84EE055898 /* MLLabelLayoutManager.h in Headers */,
+				38237563B5F3DA52292AED96A40600F8 /* MLLinkLabel.h in Headers */,
+				D3A512D2A540386A1B26CEC86A9D6D64 /* MLTextAttachment.h in Headers */,
+				D70891E0198964038971F5A70E6947A3 /* NSAttributedString+MLExpression.h in Headers */,
+				8AFEAE3338EAD9F27BF8F0F2B9C7F0E8 /* NSAttributedString+MLLabel.h in Headers */,
+				C4D1E7CC5C370593C8CF161684E61EB6 /* NSMutableAttributedString+MLLabel.h in Headers */,
+				B68FD5884C64C80E01AA5A5B5AB083A2 /* NSString+MLExpression.h in Headers */,
+				3B6DEBE41E7ECE9508405E905B6DF31E /* NSString+MLLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42225583ED631257A0EDB62C2E68862 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAD68943B56DA208FEE9DF8147CA0AF /* Pods-FYKeyBoardTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED26E0CF9C63254D63050F836B94B51A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A143768C9CA8166DD10BAE328C30C89 /* HPGrowingTextView.h in Headers */,
+				1C9A407F53A0A4303AB0D9510F0FCAAB /* HPTextViewInternal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A8BEFCAF2121D66016286097553BBB4 /* HPGrowingTextView-library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8364B9E2DF39DAFEE599988A1D5C1C56 /* Build configuration list for PBXNativeTarget "HPGrowingTextView-library" */;
+			buildPhases = (
+				ED26E0CF9C63254D63050F836B94B51A /* Headers */,
+				859BE7263EACDD2E14C2BCFC8FC66837 /* Sources */,
+				944188A7D6230C3902CD388AA4E54244 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HPGrowingTextView-library";
+			productName = "HPGrowingTextView-library";
+			productReference = 5817465EAA4C3FFC8BA79C16E11C4ED2 /* libHPGrowingTextView-library.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		37BFBC8BCBA00C6CB2911B6C1E664608 /* MLLabel-library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5EE106F9781B94803EA724C08AFDAD /* Build configuration list for PBXNativeTarget "MLLabel-library" */;
+			buildPhases = (
+				2AE707A95C40FF81BFCC0BE125827D1C /* Headers */,
+				52998002385DCBA937F061510F4FAC77 /* Sources */,
+				4BFB66D14D72F0E7357FB61C720A1E78 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MLLabel-library";
+			productName = "MLLabel-library";
+			productReference = 475085748BDB68AD4182DFF5C0B5F5A1 /* libMLLabel-library.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5780B5E9725CB76FEDAB72026987188D /* Pods-FYKeyBoard-FYKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A7D7B5254AD13C8EF1089A310D363C /* Build configuration list for PBXNativeTarget "Pods-FYKeyBoard-FYKeyBoardUITests" */;
+			buildPhases = (
+				16C43995C6301318A9E775BD148B7691 /* Headers */,
+				E54A3E67D30C2360095CA00C21B09A00 /* Sources */,
+				008F6AD875E8B90DA6325127DA1F9F30 /* Frameworks */,
+				B4EEF19E61EA8763072B89451B1FDC1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FF8598D92D98256894895F23BD6B370 /* PBXTargetDependency */,
+				329A7D2F1F14AD3705E902789DE25C5C /* PBXTargetDependency */,
+			);
+			name = "Pods-FYKeyBoard-FYKeyBoardUITests";
+			productName = "Pods-FYKeyBoard-FYKeyBoardUITests";
+			productReference = BE758D87C63580B2CB529C3221623252 /* Pods_FYKeyBoard_FYKeyBoardUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6386FFAD4EDE28D9F87285A9F6237D9F /* MLLabel-framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF53B2C80E82AC8419DDBA3ADEF462AA /* Build configuration list for PBXNativeTarget "MLLabel-framework" */;
+			buildPhases = (
+				B61E24C771C672FAE3DDC1F42D1CEC8F /* Headers */,
+				56AD10064F209FB3857B90F1BF6751AE /* Sources */,
+				D4C2F48E181B9783243E71300181B252 /* Frameworks */,
+				1B6EBDD995E636FD03CBDC0F5E6CFF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MLLabel-framework";
+			productName = "MLLabel-framework";
+			productReference = B5E06AC2B9588CC62665A1FA5F38E0C1 /* MLLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9880C47895ADF27E8A2E1A11B1D5D9A1 /* Pods-FYKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862C703C408BE7147F4401714B28B436 /* Build configuration list for PBXNativeTarget "Pods-FYKeyBoardTests" */;
+			buildPhases = (
+				E42225583ED631257A0EDB62C2E68862 /* Headers */,
+				7C2EC41CE3964B6438A4F63377DA262A /* Sources */,
+				CC7F35FFFC813D6B153DF85677A2277B /* Frameworks */,
+				8033DA1CAADF64ED101A1E2A50AAC76D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0FBB9E77B593A00C384F42F0B225ECF /* PBXTargetDependency */,
+			);
+			name = "Pods-FYKeyBoardTests";
+			productName = "Pods-FYKeyBoardTests";
+			productReference = 4715D36AACAA6C5F5C3B6CE3DC0FE3FC /* Pods_FYKeyBoardTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A32DD9D335FF01F64E169E93CEFDF2CA /* Pods-FYKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00BC9A187C123BAF9820D565DA9B8B52 /* Build configuration list for PBXNativeTarget "Pods-FYKeyBoard" */;
+			buildPhases = (
+				42960B199056E4973568F4F50F1403AA /* Headers */,
+				4D85DAE181EE8B036AE08B9674CCD67D /* Sources */,
+				A709785C8AA6123A29CFD828DD1F38B6 /* Frameworks */,
+				F022F15CCD21AEA42E3E64B324CC882C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38F12E75427C5E0F50C360AC2294B4A5 /* PBXTargetDependency */,
+				F4A3DB1C6A1C86A233750A405A796E1E /* PBXTargetDependency */,
+			);
+			name = "Pods-FYKeyBoard";
+			productName = "Pods-FYKeyBoard";
+			productReference = 71819BBF365C7634D6BE6CA97DB1CC55 /* Pods_FYKeyBoard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D89A717BE7F9D4D2C904D06373B27747 /* HPGrowingTextView-framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D503AD6C12EB8C73B3B1F6FB1976EF7 /* Build configuration list for PBXNativeTarget "HPGrowingTextView-framework" */;
+			buildPhases = (
+				9E1B2689BDCF10902604CF5DE53E5A7D /* Headers */,
+				637DB06CAE5443FB3C549CBA8F10542F /* Sources */,
+				A0FBA5A565E73AF7D192BB5CE372ADEF /* Frameworks */,
+				FDCD4AE8B0FB0724071F154F638F7A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HPGrowingTextView-framework";
+			productName = "HPGrowingTextView-framework";
+			productReference = 46431786525A8FE02254A0346C5A6603 /* HPGrowingTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 86BFFF5213858C1F6C94751F979DAD56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D89A717BE7F9D4D2C904D06373B27747 /* HPGrowingTextView-framework */,
+				2A8BEFCAF2121D66016286097553BBB4 /* HPGrowingTextView-library */,
+				6386FFAD4EDE28D9F87285A9F6237D9F /* MLLabel-framework */,
+				37BFBC8BCBA00C6CB2911B6C1E664608 /* MLLabel-library */,
+				A32DD9D335FF01F64E169E93CEFDF2CA /* Pods-FYKeyBoard */,
+				5780B5E9725CB76FEDAB72026987188D /* Pods-FYKeyBoard-FYKeyBoardUITests */,
+				9880C47895ADF27E8A2E1A11B1D5D9A1 /* Pods-FYKeyBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B6EBDD995E636FD03CBDC0F5E6CFF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8033DA1CAADF64ED101A1E2A50AAC76D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4EEF19E61EA8763072B89451B1FDC1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F022F15CCD21AEA42E3E64B324CC882C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCD4AE8B0FB0724071F154F638F7A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D85DAE181EE8B036AE08B9674CCD67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7029690302AEB6195843BA001768192 /* Pods-FYKeyBoard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52998002385DCBA937F061510F4FAC77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40579F429AF94C1264537A8E79B18FA2 /* MLExpressionManager.m in Sources */,
+				BFAF48866D11B4C0C9C4D17C9D06BA6A /* MLLabel-library-dummy.m in Sources */,
+				B0D426CBD13132C0A064E64A878D7126 /* MLLabel.m in Sources */,
+				08B768DB794E28A1E2254D59201C2407 /* MLLabelLayoutManager.m in Sources */,
+				7B4093C0B5BC1BD796D3253A1BF409FD /* MLLinkLabel.m in Sources */,
+				F5137015407CAAFDC408D260F9B3D0A5 /* MLTextAttachment.m in Sources */,
+				43F05F7657B45F27603E7FCD2F1C4991 /* NSAttributedString+MLExpression.m in Sources */,
+				C305ECEB6A3B526056FC45DC3F6CD43A /* NSAttributedString+MLLabel.m in Sources */,
+				FF1507177029524695E752B61648A170 /* NSMutableAttributedString+MLLabel.m in Sources */,
+				6860DE876645805E752E3BD03B8C9FFC /* NSString+MLExpression.m in Sources */,
+				CCB84FB551BCDA0B4C83D31A08E9A7A5 /* NSString+MLLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AD10064F209FB3857B90F1BF6751AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5265B956897C4FBE403051773286CE4 /* MLExpressionManager.m in Sources */,
+				588D29A8C7E5FD34E7395D7C7A4B591F /* MLLabel-framework-dummy.m in Sources */,
+				D3CB483753BE4FDA4531D44991879326 /* MLLabel.m in Sources */,
+				2EE552C7B057A0FF627DD9EFFFE12EFF /* MLLabelLayoutManager.m in Sources */,
+				9CC3A0DD4E8E2B9BD6895EB5DC730786 /* MLLinkLabel.m in Sources */,
+				C3607B2D8C7D36868CB67768F7E357D2 /* MLTextAttachment.m in Sources */,
+				E989C9F162DC9A5CF70932F31C674A90 /* NSAttributedString+MLExpression.m in Sources */,
+				63E739320B745DF92F7C2BBDCAC91344 /* NSAttributedString+MLLabel.m in Sources */,
+				DA1631D0A8C4C463B7A02DAEE6196ED9 /* NSMutableAttributedString+MLLabel.m in Sources */,
+				72231053ED91AE40FBDAD4EC2C982A72 /* NSString+MLExpression.m in Sources */,
+				E768DF8D9C288002CE6C564D7CF03267 /* NSString+MLLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637DB06CAE5443FB3C549CBA8F10542F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0F4561C862907B5BBD87358869DC7C /* HPGrowingTextView-framework-dummy.m in Sources */,
+				C49CB92B741F13B184B26CA090989BD2 /* HPGrowingTextView.m in Sources */,
+				46E00B6CE0E3A620713EA024FDEB454D /* HPTextViewInternal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C2EC41CE3964B6438A4F63377DA262A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064406C61281EDAD189913BD0FC76EAC /* Pods-FYKeyBoardTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859BE7263EACDD2E14C2BCFC8FC66837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E9D26AAF6525A471EA975CFED1C0A6 /* HPGrowingTextView-library-dummy.m in Sources */,
+				409A2C96CD01C1E00A29178D51C346C8 /* HPGrowingTextView.m in Sources */,
+				9F1FEB95F2BE6489EA8A7C6F2DABD419 /* HPTextViewInternal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E54A3E67D30C2360095CA00C21B09A00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5FDB3CE9EFDBA3C198B9B74244346C /* Pods-FYKeyBoard-FYKeyBoardUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FF8598D92D98256894895F23BD6B370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HPGrowingTextView-framework";
+			target = D89A717BE7F9D4D2C904D06373B27747 /* HPGrowingTextView-framework */;
+			targetProxy = 6EDF6AAE0A3386D488F6323AEB3A80DA /* PBXContainerItemProxy */;
+		};
+		329A7D2F1F14AD3705E902789DE25C5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MLLabel-framework";
+			target = 6386FFAD4EDE28D9F87285A9F6237D9F /* MLLabel-framework */;
+			targetProxy = 96154D81A8F6C43DDA26816B6B75B520 /* PBXContainerItemProxy */;
+		};
+		38F12E75427C5E0F50C360AC2294B4A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HPGrowingTextView-framework";
+			target = D89A717BE7F9D4D2C904D06373B27747 /* HPGrowingTextView-framework */;
+			targetProxy = 1E8F5F3E2FA3F7A4D0D17F8B114323A8 /* PBXContainerItemProxy */;
+		};
+		D0FBB9E77B593A00C384F42F0B225ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FYKeyBoard";
+			target = A32DD9D335FF01F64E169E93CEFDF2CA /* Pods-FYKeyBoard */;
+			targetProxy = EB3E345E2B3A8CBE41BC3D2C382F85BE /* PBXContainerItemProxy */;
+		};
+		F4A3DB1C6A1C86A233750A405A796E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MLLabel-framework";
+			target = 6386FFAD4EDE28D9F87285A9F6237D9F /* MLLabel-framework */;
+			targetProxy = D7C2B40FE91EB8BD536077CA63A3F586 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05C8CB4E93480CDD65D61017108D8DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A69622B1A1FB3DD2FC72BEFD3B7A57E /* MLLabel-library.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MLLabel-library/MLLabel-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MLLabel;
+				PRODUCT_NAME = "MLLabel-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EEC6E0674246483F958423A6F223D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D05248E9B83E6D831F8BA0078C636B /* MLLabel-framework.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLLabel-framework/MLLabel-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLLabel-framework/MLLabel-framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MLLabel-framework/MLLabel-framework.modulemap";
+				PRODUCT_MODULE_NAME = MLLabel;
+				PRODUCT_NAME = MLLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FE58AB929E0ACB653955D4A85B96A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9133F360610C003A3722A5A8122E4FA7 /* Pods-FYKeyBoard.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYKeyBoard/Pods-FYKeyBoard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYKeyBoard/Pods-FYKeyBoard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		658CC99578448AF23D8886D98A90E98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F74F1BA430E0AE133B492EC4BB686154 /* MLLabel-framework.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLLabel-framework/MLLabel-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLLabel-framework/MLLabel-framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MLLabel-framework/MLLabel-framework.modulemap";
+				PRODUCT_MODULE_NAME = MLLabel;
+				PRODUCT_NAME = MLLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65DF4E98B81F19F4FFE21D8C311AD013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C66633464E4356969B7028A12C4416 /* HPGrowingTextView-framework.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HPGrowingTextView-framework/HPGrowingTextView-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HPGrowingTextView-framework/HPGrowingTextView-framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HPGrowingTextView-framework/HPGrowingTextView-framework.modulemap";
+				PRODUCT_MODULE_NAME = HPGrowingTextView;
+				PRODUCT_NAME = HPGrowingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		90662CAD315C38D29E25A8D8793C23EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F877E0A224B2259AA79E1A8AEE03DBB8 /* MLLabel-library.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MLLabel-library/MLLabel-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MLLabel;
+				PRODUCT_NAME = "MLLabel-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AC919327866E81C1FB7565560BF67201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD8105DD66EAA7A3E3D747FDD7EFC5B6 /* Pods-FYKeyBoard-FYKeyBoardUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYKeyBoard-FYKeyBoardUITests/Pods-FYKeyBoard-FYKeyBoardUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYKeyBoard-FYKeyBoardUITests/Pods-FYKeyBoard-FYKeyBoardUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C03A5F17F454C59EB8FB08AFEB3A832B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53ECE9EC74A9B759E2F5B8E7AD3302E8 /* Pods-FYKeyBoard-FYKeyBoardUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYKeyBoard-FYKeyBoardUITests/Pods-FYKeyBoard-FYKeyBoardUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYKeyBoard-FYKeyBoardUITests/Pods-FYKeyBoard-FYKeyBoardUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5C5ADCBFA1E2538D5BD019BF1295770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C26A7AFE92AC79C41F8BA2F553AF5B7 /* Pods-FYKeyBoardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYKeyBoardTests/Pods-FYKeyBoardTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYKeyBoardTests/Pods-FYKeyBoardTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D91A2848CEC6E594A3F56B9EA009BD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D897EB89569285733816793B7980019 /* HPGrowingTextView-framework.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HPGrowingTextView-framework/HPGrowingTextView-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HPGrowingTextView-framework/HPGrowingTextView-framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HPGrowingTextView-framework/HPGrowingTextView-framework.modulemap";
+				PRODUCT_MODULE_NAME = HPGrowingTextView;
+				PRODUCT_NAME = HPGrowingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D971F7C8C6254ACD75861B50D91AFBDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA4EC98E51E48FC9FF828A4F1205F17 /* Pods-FYKeyBoard.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYKeyBoard/Pods-FYKeyBoard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYKeyBoard/Pods-FYKeyBoard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9C009F17F8375E0E295422E6E1CD44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830E61AE1C8468FE06ADCF41B4651BC5 /* HPGrowingTextView-library.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HPGrowingTextView-library/HPGrowingTextView-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HPGrowingTextView;
+				PRODUCT_NAME = "HPGrowingTextView-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB26088DECFA4C0148CB650C3D58D3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4397A14B51941C6AE45E045A4CC26D /* HPGrowingTextView-library.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HPGrowingTextView-library/HPGrowingTextView-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HPGrowingTextView;
+				PRODUCT_NAME = "HPGrowingTextView-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4ADC2131DA9C3279CC6D02573BDE3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35497727A470019B0EFFC8C39546ECD8 /* Pods-FYKeyBoardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYKeyBoardTests/Pods-FYKeyBoardTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYKeyBoardTests/Pods-FYKeyBoardTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00BC9A187C123BAF9820D565DA9B8B52 /* Build configuration list for PBXNativeTarget "Pods-FYKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D971F7C8C6254ACD75861B50D91AFBDD /* Debug */,
+				5FE58AB929E0ACB653955D4A85B96A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5EE106F9781B94803EA724C08AFDAD /* Build configuration list for PBXNativeTarget "MLLabel-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C8CB4E93480CDD65D61017108D8DA7 /* Debug */,
+				90662CAD315C38D29E25A8D8793C23EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D503AD6C12EB8C73B3B1F6FB1976EF7 /* Build configuration list for PBXNativeTarget "HPGrowingTextView-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91A2848CEC6E594A3F56B9EA009BD7F /* Debug */,
+				65DF4E98B81F19F4FFE21D8C311AD013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A7D7B5254AD13C8EF1089A310D363C /* Build configuration list for PBXNativeTarget "Pods-FYKeyBoard-FYKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC919327866E81C1FB7565560BF67201 /* Debug */,
+				C03A5F17F454C59EB8FB08AFEB3A832B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8364B9E2DF39DAFEE599988A1D5C1C56 /* Build configuration list for PBXNativeTarget "HPGrowingTextView-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C009F17F8375E0E295422E6E1CD44A /* Debug */,
+				EB26088DECFA4C0148CB650C3D58D3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862C703C408BE7147F4401714B28B436 /* Build configuration list for PBXNativeTarget "Pods-FYKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4ADC2131DA9C3279CC6D02573BDE3D3 /* Debug */,
+				C5C5ADCBFA1E2538D5BD019BF1295770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF53B2C80E82AC8419DDBA3ADEF462AA /* Build configuration list for PBXNativeTarget "MLLabel-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEC6E0674246483F958423A6F223D8F /* Debug */,
+				658CC99578448AF23D8886D98A90E98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

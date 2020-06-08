@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E0B3BB1248B6EC30023197A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B3BB0248B6EC30023197A /* AppDelegate.m */; };
+		1E0B3BB4248B6EC30023197A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B3BB3248B6EC30023197A /* SceneDelegate.m */; };
+		1E0B3BB7248B6EC30023197A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B3BB6248B6EC30023197A /* ViewController.m */; };
+		1E0B3BBA248B6EC30023197A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0B3BB8248B6EC30023197A /* Main.storyboard */; };
+		1E0B3BBC248B6EC50023197A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0B3BBB248B6EC50023197A /* Assets.xcassets */; };
+		1E0B3BBF248B6EC50023197A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0B3BBD248B6EC50023197A /* LaunchScreen.storyboard */; };
+		1E0B3BC2248B6EC50023197A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B3BC1248B6EC50023197A /* main.m */; };
+		1E0B3BCC248B6EC50023197A /* FYKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B3BCB248B6EC50023197A /* FYKeyBoardTests.m */; };
+		1E0B3BD7248B6EC50023197A /* FYKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B3BD6248B6EC50023197A /* FYKeyBoardUITests.m */; };
+		1E0B3BF4248CA2B60023197A /* FYChatToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B3BF3248CA2B60023197A /* FYChatToolBar.m */; };
+		1E0B3BF8248CA6390023197A /* UIView+FYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B3BF6248CA6390023197A /* UIView+FYExtension.m */; };
+		1E0B3BFB248CA9140023197A /* FYChatKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B3BFA248CA9140023197A /* FYChatKeyBoard.m */; };
+		1E0B3BFE248CF1080023197A /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B3BFD248CF1080023197A /* DemoTableViewController.m */; };
+		1E0B3C02248CF1330023197A /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B3C00248CF1330023197A /* TableViewCell.m */; };
+		1E0B3C03248CF1330023197A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E0B3C01248CF1330023197A /* TableViewCell.xib */; };
+		1E0B3C0D248D206D0023197A /* UIColor+FYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B3C0B248D206D0023197A /* UIColor+FYColor.m */; };
+		4549AF95F0D02C91832A1695 /* Pods_FYKeyBoardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA23944367F474B418559D47 /* Pods_FYKeyBoardTests.framework */; };
+		7ED8CD1E37080BC90C628FA6 /* Pods_FYKeyBoard_FYKeyBoardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BD752617C8A4BCBCC2F58E /* Pods_FYKeyBoard_FYKeyBoardUITests.framework */; };
+		F16275C57209660C214DA3ED /* Pods_FYKeyBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5950AF4632CF790810C83AB /* Pods_FYKeyBoard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E0B3BC8248B6EC50023197A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E0B3BA4248B6EC30023197A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E0B3BAB248B6EC30023197A;
+			remoteInfo = FYKeyBoard;
+		};
+		1E0B3BD3248B6EC50023197A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E0B3BA4248B6EC30023197A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E0B3BAB248B6EC30023197A;
+			remoteInfo = FYKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F814CA94199138BE67E6D8 /* Pods-FYKeyBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYKeyBoard.debug.xcconfig"; path = "Target Support Files/Pods-FYKeyBoard/Pods-FYKeyBoard.debug.xcconfig"; sourceTree = "<group>"; };
+		08BD752617C8A4BCBCC2F58E /* Pods_FYKeyBoard_FYKeyBoardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYKeyBoard_FYKeyBoardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0B3BAC248B6EC30023197A /* FYKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0B3BAF248B6EC30023197A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E0B3BB0248B6EC30023197A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E0B3BB2248B6EC30023197A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1E0B3BB3248B6EC30023197A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1E0B3BB5248B6EC30023197A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E0B3BB6248B6EC30023197A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E0B3BB9248B6EC30023197A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E0B3BBB248B6EC50023197A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E0B3BBE248B6EC50023197A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E0B3BC0248B6EC50023197A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E0B3BC1248B6EC50023197A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E0B3BC7248B6EC50023197A /* FYKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0B3BCB248B6EC50023197A /* FYKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYKeyBoardTests.m; sourceTree = "<group>"; };
+		1E0B3BCD248B6EC50023197A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E0B3BD2248B6EC50023197A /* FYKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0B3BD6248B6EC50023197A /* FYKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYKeyBoardUITests.m; sourceTree = "<group>"; };
+		1E0B3BD8248B6EC50023197A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E0B3BF2248CA2B60023197A /* FYChatToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYChatToolBar.h; sourceTree = "<group>"; };
+		1E0B3BF3248CA2B60023197A /* FYChatToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYChatToolBar.m; sourceTree = "<group>"; };
+		1E0B3BF5248CA2EC0023197A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1E0B3BF6248CA6390023197A /* UIView+FYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FYExtension.m"; sourceTree = "<group>"; };
+		1E0B3BF7248CA6390023197A /* UIView+FYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FYExtension.h"; sourceTree = "<group>"; };
+		1E0B3BF9248CA9140023197A /* FYChatKeyBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYChatKeyBoard.h; sourceTree = "<group>"; };
+		1E0B3BFA248CA9140023197A /* FYChatKeyBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYChatKeyBoard.m; sourceTree = "<group>"; };
+		1E0B3BFC248CF1080023197A /* DemoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		1E0B3BFD248CF1080023197A /* DemoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
+		1E0B3BFF248CF1330023197A /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		1E0B3C00248CF1330023197A /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		1E0B3C01248CF1330023197A /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		1E0B3C0B248D206D0023197A /* UIColor+FYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FYColor.m"; sourceTree = "<group>"; };
+		1E0B3C0C248D206D0023197A /* UIColor+FYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FYColor.h"; sourceTree = "<group>"; };
+		36DD500FBB0341E8D6100EFC /* Pods-FYKeyBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYKeyBoard.release.xcconfig"; path = "Target Support Files/Pods-FYKeyBoard/Pods-FYKeyBoard.release.xcconfig"; sourceTree = "<group>"; };
+		459E81BC784F6D18F84649B0 /* Pods-FYKeyBoardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYKeyBoardTests.debug.xcconfig"; path = "Target Support Files/Pods-FYKeyBoardTests/Pods-FYKeyBoardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77F8C3E3EC6746CCC960133F /* Pods-FYKeyBoardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYKeyBoardTests.release.xcconfig"; path = "Target Support Files/Pods-FYKeyBoardTests/Pods-FYKeyBoardTests.release.xcconfig"; sourceTree = "<group>"; };
+		904B128975BD7B8A6F6372F9 /* Pods-FYKeyBoard-FYKeyBoardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYKeyBoard-FYKeyBoardUITests.debug.xcconfig"; path = "Target Support Files/Pods-FYKeyBoard-FYKeyBoardUITests/Pods-FYKeyBoard-FYKeyBoardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA23944367F474B418559D47 /* Pods_FYKeyBoardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYKeyBoardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB56998AA3B410C5C9D4E6 /* Pods-FYKeyBoard-FYKeyBoardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYKeyBoard-FYKeyBoardUITests.release.xcconfig"; path = "Target Support Files/Pods-FYKeyBoard-FYKeyBoardUITests/Pods-FYKeyBoard-FYKeyBoardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D5950AF4632CF790810C83AB /* Pods_FYKeyBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYKeyBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E0B3BA9248B6EC30023197A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16275C57209660C214DA3ED /* Pods_FYKeyBoard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0B3BC4248B6EC50023197A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4549AF95F0D02C91832A1695 /* Pods_FYKeyBoardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0B3BCF248B6EC50023197A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED8CD1E37080BC90C628FA6 /* Pods_FYKeyBoard_FYKeyBoardUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E0B3BA3248B6EC30023197A = {
+			isa = PBXGroup;
+			children = (
+				1E0B3BAE248B6EC30023197A /* FYKeyBoard */,
+				1E0B3BCA248B6EC50023197A /* FYKeyBoardTests */,
+				1E0B3BD5248B6EC50023197A /* FYKeyBoardUITests */,
+				1E0B3BAD248B6EC30023197A /* Products */,
+				66872D0A9802FB7EB2CF2D1B /* Pods */,
+				BB7FAF17EB74C81246B17D43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E0B3BAD248B6EC30023197A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E0B3BAC248B6EC30023197A /* FYKeyBoard.app */,
+				1E0B3BC7248B6EC50023197A /* FYKeyBoardTests.xctest */,
+				1E0B3BD2248B6EC50023197A /* FYKeyBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E0B3BAE248B6EC30023197A /* FYKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				1E0B3BAF248B6EC30023197A /* AppDelegate.h */,
+				1E0B3BB0248B6EC30023197A /* AppDelegate.m */,
+				1E0B3BB2248B6EC30023197A /* SceneDelegate.h */,
+				1E0B3BB3248B6EC30023197A /* SceneDelegate.m */,
+				1E0B3BB5248B6EC30023197A /* ViewController.h */,
+				1E0B3BB6248B6EC30023197A /* ViewController.m */,
+				1E0B3BFC248CF1080023197A /* DemoTableViewController.h */,
+				1E0B3BFD248CF1080023197A /* DemoTableViewController.m */,
+				1E0B3BFF248CF1330023197A /* TableViewCell.h */,
+				1E0B3C00248CF1330023197A /* TableViewCell.m */,
+				1E0B3C01248CF1330023197A /* TableViewCell.xib */,
+				1E0B3BF5248CA2EC0023197A /* PrefixHeader.pch */,
+				1E0B3BE4248B6ED50023197A /* keyboard */,
+				1E0B3BB8248B6EC30023197A /* Main.storyboard */,
+				1E0B3BBB248B6EC50023197A /* Assets.xcassets */,
+				1E0B3BBD248B6EC50023197A /* LaunchScreen.storyboard */,
+				1E0B3BC0248B6EC50023197A /* Info.plist */,
+				1E0B3BC1248B6EC50023197A /* main.m */,
+			);
+			path = FYKeyBoard;
+			sourceTree = "<group>";
+		};
+		1E0B3BCA248B6EC50023197A /* FYKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E0B3BCB248B6EC50023197A /* FYKeyBoardTests.m */,
+				1E0B3BCD248B6EC50023197A /* Info.plist */,
+			);
+			path = FYKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		1E0B3BD5248B6EC50023197A /* FYKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E0B3BD6248B6EC50023197A /* FYKeyBoardUITests.m */,
+				1E0B3BD8248B6EC50023197A /* Info.plist */,
+			);
+			path = FYKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+		1E0B3BE4248B6ED50023197A /* keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1E0B3BF7248CA6390023197A /* UIView+FYExtension.h */,
+				1E0B3BF6248CA6390023197A /* UIView+FYExtension.m */,
+				1E0B3C0C248D206D0023197A /* UIColor+FYColor.h */,
+				1E0B3C0B248D206D0023197A /* UIColor+FYColor.m */,
+				1E0B3BF2248CA2B60023197A /* FYChatToolBar.h */,
+				1E0B3BF3248CA2B60023197A /* FYChatToolBar.m */,
+				1E0B3BF9248CA9140023197A /* FYChatKeyBoard.h */,
+				1E0B3BFA248CA9140023197A /* FYChatKeyBoard.m */,
+			);
+			path = keyboard;
+			sourceTree = "<group>";
+		};
+		66872D0A9802FB7EB2CF2D1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03F814CA94199138BE67E6D8 /* Pods-FYKeyBoard.debug.xcconfig */,
+				36DD500FBB0341E8D6100EFC /* Pods-FYKeyBoard.release.xcconfig */,
+				904B128975BD7B8A6F6372F9 /* Pods-FYKeyBoard-FYKeyBoardUITests.debug.xcconfig */,
+				CEDB56998AA3B410C5C9D4E6 /* Pods-FYKeyBoard-FYKeyBoardUITests.release.xcconfig */,
+				459E81BC784F6D18F84649B0 /* Pods-FYKeyBoardTests.debug.xcconfig */,
+				77F8C3E3EC6746CCC960133F /* Pods-FYKeyBoardTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB7FAF17EB74C81246B17D43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5950AF4632CF790810C83AB /* Pods_FYKeyBoard.framework */,
+				08BD752617C8A4BCBCC2F58E /* Pods_FYKeyBoard_FYKeyBoardUITests.framework */,
+				AA23944367F474B418559D47 /* Pods_FYKeyBoardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E0B3BAB248B6EC30023197A /* FYKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E0B3BDB248B6EC50023197A /* Build configuration list for PBXNativeTarget "FYKeyBoard" */;
+			buildPhases = (
+				9B5C6850E11CBAD0A318BCA5 /* [CP] Check Pods Manifest.lock */,
+				1E0B3BA8248B6EC30023197A /* Sources */,
+				1E0B3BA9248B6EC30023197A /* Frameworks */,
+				1E0B3BAA248B6EC30023197A /* Resources */,
+				1083CFCE62A44FF9E49230BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYKeyBoard;
+			productName = FYKeyBoard;
+			productReference = 1E0B3BAC248B6EC30023197A /* FYKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E0B3BC6248B6EC50023197A /* FYKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E0B3BDE248B6EC50023197A /* Build configuration list for PBXNativeTarget "FYKeyBoardTests" */;
+			buildPhases = (
+				80F99ED65D5AF04992EE7015 /* [CP] Check Pods Manifest.lock */,
+				1E0B3BC3248B6EC50023197A /* Sources */,
+				1E0B3BC4248B6EC50023197A /* Frameworks */,
+				1E0B3BC5248B6EC50023197A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E0B3BC9248B6EC50023197A /* PBXTargetDependency */,
+			);
+			name = FYKeyBoardTests;
+			productName = FYKeyBoardTests;
+			productReference = 1E0B3BC7248B6EC50023197A /* FYKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E0B3BD1248B6EC50023197A /* FYKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E0B3BE1248B6EC50023197A /* Build configuration list for PBXNativeTarget "FYKeyBoardUITests" */;
+			buildPhases = (
+				B8DEAB375317ED045130BCD7 /* [CP] Check Pods Manifest.lock */,
+				1E0B3BCE248B6EC50023197A /* Sources */,
+				1E0B3BCF248B6EC50023197A /* Frameworks */,
+				1E0B3BD0248B6EC50023197A /* Resources */,
+				BE1439AB5EEE0C077786BC2A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E0B3BD4248B6EC50023197A /* PBXTargetDependency */,
+			);
+			name = FYKeyBoardUITests;
+			productName = FYKeyBoardUITests;
+			productReference = 1E0B3BD2248B6EC50023197A /* FYKeyBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E0B3BA4248B6EC30023197A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = wang;
+				TargetAttributes = {
+					1E0B3BAB248B6EC30023197A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					1E0B3BC6248B6EC50023197A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1E0B3BAB248B6EC30023197A;
+					};
+					1E0B3BD1248B6EC50023197A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1E0B3BAB248B6EC30023197A;
+					};
+				};
+			};
+			buildConfigurationList = 1E0B3BA7248B6EC30023197A /* Build configuration list for PBXProject "FYKeyBoard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E0B3BA3248B6EC30023197A;
+			productRefGroup = 1E0B3BAD248B6EC30023197A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E0B3BAB248B6EC30023197A /* FYKeyBoard */,
+				1E0B3BC6248B6EC50023197A /* FYKeyBoardTests */,
+				1E0B3BD1248B6EC50023197A /* FYKeyBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E0B3BAA248B6EC30023197A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0B3BBF248B6EC50023197A /* LaunchScreen.storyboard in Resources */,
+				1E0B3C03248CF1330023197A /* TableViewCell.xib in Resources */,
+				1E0B3BBC248B6EC50023197A /* Assets.xcassets in Resources */,
+				1E0B3BBA248B6EC30023197A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0B3BC5248B6EC50023197A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0B3BD0248B6EC50023197A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1083CFCE62A44FF9E49230BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FYKeyBoard/Pods-FYKeyBoard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FYKeyBoard/Pods-FYKeyBoard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FYKeyBoard/Pods-FYKeyBoard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80F99ED65D5AF04992EE7015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYKeyBoardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B5C6850E11CBAD0A318BCA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYKeyBoard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8DEAB375317ED045130BCD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYKeyBoard-FYKeyBoardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE1439AB5EEE0C077786BC2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FYKeyBoard-FYKeyBoardUITests/Pods-FYKeyBoard-FYKeyBoardUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FYKeyBoard-FYKeyBoardUITests/Pods-FYKeyBoard-FYKeyBoardUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FYKeyBoard-FYKeyBoardUITests/Pods-FYKeyBoard-FYKeyBoardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E0B3BA8248B6EC30023197A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0B3BFE248CF1080023197A /* DemoTableViewController.m in Sources */,
+				1E0B3BB7248B6EC30023197A /* ViewController.m in Sources */,
+				1E0B3BF8248CA6390023197A /* UIView+FYExtension.m in Sources */,
+				1E0B3BB1248B6EC30023197A /* AppDelegate.m in Sources */,
+				1E0B3C02248CF1330023197A /* TableViewCell.m in Sources */,
+				1E0B3C0D248D206D0023197A /* UIColor+FYColor.m in Sources */,
+				1E0B3BC2248B6EC50023197A /* main.m in Sources */,
+				1E0B3BFB248CA9140023197A /* FYChatKeyBoard.m in Sources */,
+				1E0B3BB4248B6EC30023197A /* SceneDelegate.m in Sources */,
+				1E0B3BF4248CA2B60023197A /* FYChatToolBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0B3BC3248B6EC50023197A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0B3BCC248B6EC50023197A /* FYKeyBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0B3BCE248B6EC50023197A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0B3BD7248B6EC50023197A /* FYKeyBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E0B3BC9248B6EC50023197A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E0B3BAB248B6EC30023197A /* FYKeyBoard */;
+			targetProxy = 1E0B3BC8248B6EC50023197A /* PBXContainerItemProxy */;
+		};
+		1E0B3BD4248B6EC50023197A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E0B3BAB248B6EC30023197A /* FYKeyBoard */;
+			targetProxy = 1E0B3BD3248B6EC50023197A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E0B3BB8248B6EC30023197A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E0B3BB9248B6EC30023197A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E0B3BBD248B6EC50023197A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E0B3BBE248B6EC50023197A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E0B3BD9248B6EC50023197A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E0B3BDA248B6EC50023197A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E0B3BDC248B6EC50023197A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F814CA94199138BE67E6D8 /* Pods-FYKeyBoard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = FYKeyBoard/PrefixHeader.pch;
+				INFOPLIST_FILE = FYKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E0B3BDD248B6EC50023197A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36DD500FBB0341E8D6100EFC /* Pods-FYKeyBoard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = FYKeyBoard/PrefixHeader.pch;
+				INFOPLIST_FILE = FYKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E0B3BDF248B6EC50023197A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459E81BC784F6D18F84649B0 /* Pods-FYKeyBoardTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYKeyBoardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYKeyBoard.app/FYKeyBoard";
+			};
+			name = Debug;
+		};
+		1E0B3BE0248B6EC50023197A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F8C3E3EC6746CCC960133F /* Pods-FYKeyBoardTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYKeyBoardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYKeyBoard.app/FYKeyBoard";
+			};
+			name = Release;
+		};
+		1E0B3BE2248B6EC50023197A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904B128975BD7B8A6F6372F9 /* Pods-FYKeyBoard-FYKeyBoardUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FYKeyBoard;
+			};
+			name = Debug;
+		};
+		1E0B3BE3248B6EC50023197A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEDB56998AA3B410C5C9D4E6 /* Pods-FYKeyBoard-FYKeyBoardUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.FYKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FYKeyBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E0B3BA7248B6EC30023197A /* Build configuration list for PBXProject "FYKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0B3BD9248B6EC50023197A /* Debug */,
+				1E0B3BDA248B6EC50023197A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E0B3BDB248B6EC50023197A /* Build configuration list for PBXNativeTarget "FYKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0B3BDC248B6EC50023197A /* Debug */,
+				1E0B3BDD248B6EC50023197A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E0B3BDE248B6EC50023197A /* Build configuration list for PBXNativeTarget "FYKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0B3BDF248B6EC50023197A /* Debug */,
+				1E0B3BE0248B6EC50023197A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E0B3BE1248B6EC50023197A /* Build configuration list for PBXNativeTarget "FYKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0B3BE2248B6EC50023197A /* Debug */,
+				1E0B3BE3248B6EC50023197A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E0B3BA4248B6EC30023197A /* Project object */;
+}
